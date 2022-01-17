@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Prompt', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-primary {
+    background-color: #f3593e !important
+}
+
+.bg-MYSET {
+    background: rgb(255,139,89);
+    background: radial-gradient(circle, rgb(255, 116, 56) 30%, rgb(255, 46, 46) 100%);
+}
+
+.text-primary {
+    color: #ff5148 !important
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Prompt', sans-serif;
+    color: #24282b;
+}
+
+.METextDark{
+    color: #24282b;
+}
+
+#imgModalPreview{
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;     
+    user-select: none;    
+}
+
+.MEsubtext{
+    font-family: 'Prompt' sans-serif;
+    color: #333333;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.MEsubtext2{
+    color: #6c757d;
+    font-weight: 300;
+    font-size: 1.2rem;
+
+}
+
+/* Navigation Bar Config Zone */
+
+#NameOnNav {
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+    text-transform: none;
+}
+
+.nav-item{
+    font-family: 'Prompt', sans-serif;
+}
+
+/* -------------------------- */
+
+/* About Zone */
+
+#introduct-box{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px){
+.ProfileAbout{
+    width: 280px;
+    height: 280px;
+}
+
+#introduct-box{
+    margin-top: 20px;
+}
+}
+
+#about-name{
+    color: #f3593e !important
+}
+
+#introduct{
+    color: black;
+}
+
+#sc-icon:hover{
+    background-color: #f3593e;
+    transition: 0.3s ;
+}
+
+#sc-icon-fb:hover{
+    background-color: #248aff;
+    transition: 0.3s ;
+}
+
+#sc-icon-gh:hover{
+    background-color: #000;
+    transition: 0.3s ;
+}
+
+#sc-icon-ln:hover{
+    background-color: rgb(47, 218, 84);
+    transition: 0.3s ;
+}
+
+
+/* Education Zone */
+.METextFont{
+    font-family: 'Prompt', sans-serif;
+}
+
+.METextSizeConfig{
+    font-size: 18px;
+}
+
+.MEHeaderConfig{
+    font-size: 20px;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #d4d9df;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+ul.timeline > li#timelinenow:before {
+    border: 5px solid #22c0e8;
+}
+
+.METextCONFIG1{
+    font-size: 20px;
+}
+
+/* ability Zone */
+.MyFBbtn{
+    background-color: #248aff;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: 0.3 ease-in-out;
+}
+
+.MyFBbtn:hover{
+    background-color: #0069e0;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.MEfbicon{
+    color: #248aff;
+    font-size: 2rem;
+    transform: translateY(7.5px);
+}
+
+/* Achievement Zone */
+.MEtextGradian{
+    font-weight: bolder;
+    background : -webkit-radial-gradient(circle, rgb(255, 182, 46) 20%, rgb(255, 103, 32) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.MEHeaderConfig2{
+    font-size: 24px;
+}
+
+.ME-P-TextCONFIG1{
+    font-size: 18px;
+    line-height: 18pt;
+    color: #333333;
+}
+
+.ME-P-TextCONFIG2{
+    font-size: 14px;
+    line-height: 14pt;
+}
+
+.ME-P-TextCONFIG3{
+    font-size: 18px;
+    line-height: 18pt;
+}
+
+.MyGithubbtn{
+    background-color: #353535;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: 0.3 ease-in-out;
+}
+
+.MyGithubbtn:hover{
+    background-color: #242424;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.MyYTbtn{
+    background-color: #d83535;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: 0.3 ease-in-out;
+}
+
+.MyYTbtn:hover{
+    background-color: #992727;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.MEBoxBG{
+    background : -webkit-radial-gradient(circle, rgb(255, 182, 46) 20%, rgb(255, 103, 32) 100%);
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #616161, 0 2px 0 #474747, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.ACM-header-font{
+    font-size: 28px;
+}
+
+.FBbtnTextSize{
+    font-size: 20px;
+}
